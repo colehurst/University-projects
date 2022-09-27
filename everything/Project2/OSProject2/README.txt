@@ -1,0 +1,1 @@
+To run the program compile on a C IDE or UNIX based system, run the filepath along with gcc -w main.c -o main -lpthread and your desired argument that will be used as a seed.

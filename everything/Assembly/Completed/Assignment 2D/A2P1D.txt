@@ -1,0 +1,44 @@
+Enter Exam 1 Score: 10
+Enter Exam 2 Score: 20
+Enter the Final Exam Score: 30
+Exam 1 Score is 10
+Exam 2 Score is 20
+Final Exam Score is 30
+The Average is 22
+-- program is finished running --
+
+
+Reset: reset completed.
+
+Enter Exam 1 Score: 50
+Enter Exam 2 Score: 50
+Enter the Final Exam Score: 50
+Exam 1 Score is 50
+Exam 2 Score is 50
+Final Exam Score is 50
+The Average is 49
+-- program is finished running --
+
+
+Reset: reset completed.
+
+Enter Exam 1 Score: 0
+Enter Exam 2 Score: 0
+Enter the Final Exam Score: 0
+Exam 1 Score is 0
+Exam 2 Score is 0
+Final Exam Score is 0
+The Average is 0
+-- program is finished running --
+
+
+Reset: reset completed.
+
+Enter Exam 1 Score: 100
+Enter Exam 2 Score: 100
+Enter the Final Exam Score: 100
+Exam 1 Score is 100
+Exam 2 Score is 100
+Final Exam Score is 100
+The Average is 99
+-- program is finished running --

@@ -1,0 +1,21 @@
+student 1 - 8
+student 2 - 7
+student 3 - 10
+student 4 - 3
+student 5 - 10
+Final Report
+-----------
+10 - 2
+9 - 0
+8 - 1
+7 - 1
+6 - 0
+5 - 0
+4 - 0
+3 - 1
+2 - 0
+1 - 0
+0 - 0
+high score - 10
+lowest score - 3
+mean score - 7.6

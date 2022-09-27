@@ -1,0 +1,84 @@
+# Assignment 2 part 1A
+#Cole Hurst sec.251
+			.data
+name:			.space 21			
+intPrmpt:		.asciiz "Enter interger: "
+intOut:			.asciiz "Your interger is "
+charPrmpt:		.asciiz "Enter character: "
+charOut:		.asciiz "Your character is "
+strPrmpt:		.asciiz "Enter string: "
+strOut:			.asciiz "Your string is "
+
+			.text
+			.globl main
+main:
+			
+			li $v0, 11
+			li $a0, '\n'
+			syscall
+			
+			li $v0,4
+			la $a0, intPrmpt
+			syscall
+			li $v0,5
+			syscall
+			move $t0, $v0			
+			li $v0,4
+			la $a0, intOut
+			syscall
+			li $v0,1
+			move $a0, $t0
+			syscall
+			
+			li $v0, 11
+			li $a0, '\n'
+			syscall
+			
+			li $v0,4
+			la $a0, strPrmpt
+			syscall
+			li $v0, 8
+			la $a0, name
+			li $a1, 26
+			syscall
+
+			li $v0, 11
+			li $a0, '\n'
+			syscall
+			
+			li $v0,4
+			la $a0, strOut
+			syscall
+			#li $v0,4
+			la $a0, name
+			syscall
+			
+			li $v0, 11
+			li $a0, '\n'
+			syscall
+			
+			li $v0,4
+			la $a0, charPrmpt
+			syscall
+			li $v0,12
+			syscall
+			move $t0, $v0
+			
+			li $v0, 11
+			li $a0, '\n'
+			syscall
+			
+			li $v0,4
+			la $a0, charOut
+			syscall
+			li $v0,11
+			move $a0, $t0
+			syscall
+			
+			li $v0, 11
+			li $a0, '\n'
+			syscall
+
+			li $v0, 10			
+			syscall
+			

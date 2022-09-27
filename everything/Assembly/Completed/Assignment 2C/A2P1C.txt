@@ -1,0 +1,6 @@
+Integer array from 1st to 5th element
+4499331155
+Integer array from 5th to 1st element
+9944335511
+-- program is finished running --
+

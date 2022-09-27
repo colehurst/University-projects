@@ -1,0 +1,21 @@
+/*
+* Dice War: Simple Dice rolling game with 4 players in teams of 2, a dealer, and a die.
+* CS4328 Operating Systems
+* Date: April 26, 2020
+* Creator: Cole Hurst
+*/
+
+#include <pthread.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <fstream>
+
+#define NUM_THREADS 4 // Number of threads due to the 4 test cases.
+#define NUM_ON_DIE 6 // Total numbers on a die
+#define PTHREADM PTHREAD_MUTEX_INITIALIZER
+#define PTHREADC PTHREAD_COND_INITIALIZER
+
+// Dice Struct
+struct Dice_struct{
+   int die1, die2, sumdie;
+};

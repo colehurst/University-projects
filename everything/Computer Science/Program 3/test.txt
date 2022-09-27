@@ -1,0 +1,6 @@
+5
+George 24 34
+Jane 24 17
+Joan 70 32
+Phil 25 78
+Cole 69 420

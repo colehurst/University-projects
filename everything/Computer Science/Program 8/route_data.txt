@@ -1,0 +1,8 @@
+San_Marcos 0.0 0.0
+Omaha 1.5 6.3
+Austin 0.5 1.2
+Chicago 3.1 8.2
+Dallas 0.8 3.4
+Denver -1.5 7.4
+Houston 1.8 -0.7
+McGregor 1.2 10.6
