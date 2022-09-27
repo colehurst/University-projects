@@ -1,0 +1,6 @@
+compiler
+which statemenit is not true.
+!A) All comiler transformation are safe
+B) All compiler transformations are profitable 
+C) These should be an oppurtunity to apply the transformation
+!D) Compiler transformation improves compile time as well as running time of applications

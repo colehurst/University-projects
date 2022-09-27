@@ -1,0 +1,27 @@
+#include <cstdlib>
+#include <iostream>
+#include <ctime>
+
+int main()
+{
+    std::srand(std::time(nullptr));
+
+    for(int i=0;i<10;i++)
+    {
+
+        int r = std::rand() % 100;
+        std::cout << r << std::endl;
+    }
+}
+
+void main() {
+
+    float number;
+    float randomNum;
+
+    srand(time(NULL));
+
+    number = rand() % .20;
+cout << (number) << endl;
+
+}
